@@ -56,8 +56,14 @@ function _Client.open:creatorMenu()
                 onActive = function() Utils:OnRenderCam() end,
                 onSelected = function()
                     if _Config.starterPack.enable then
+                        TriggerEvent(_Config.events.skinchanger..':getSkin', function(skin)
+                            TriggerServerEvent(_Config.events.skin..':save', skin)
+                        end)
                         Utils:goKitchen()
                     else
+                        TriggerEvent(_Config.events.skinchanger..':getSkin', function(skin)
+                            TriggerServerEvent(_Config.events.skin..':save', skin)
+                        end)
                         Utils:goLift()
                     end
                 end
