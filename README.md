@@ -21,9 +21,8 @@
 - Logs discord & console
 
 ## Requirements
-- [es_extended](https://github.com/mitlight/es_extended)
-- [skinchanger](https://github.com/mitlight/skinchanger)
-- [esx_skin](https://github.com/mitlight/esx_skin)
+- [es_extended](https://github.com/esx-framework/esx-legacy/tree/main/%5Besx%5D/es_extended)
+- [skinchanger](https://github.com/Razzway/skinchanger)
 
 ## If you need help
 - **Discord** : Razzway#0871 & [Razzway FiveM Store](https://discord.gg/EtWdxsCv94)
