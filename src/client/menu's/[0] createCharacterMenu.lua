@@ -14,7 +14,7 @@ function _Client.open:createCharacterMenu()
         RageUI.IsVisible(createCharacterMenu, function()
             Wait(0)
             RageUI.Line()
-            RageUI.Button(__["create_character"], __["create_character_desc"], {}, not grrRazzway, {
+            RageUI.Button(__["create_my_character"], __["create_character_desc"], {}, not grrRazzway, {
                 onSelected = function()
                     grrRazzway = true
                 end
