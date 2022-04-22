@@ -3,7 +3,7 @@
 
 __ = {
     ["welcome"] = "Bienvenue sur notre serveur.",
-    ["create_character"] = "Créer son personnage.",
+    ["create_my_character"] = "Créer son personnage.",
     ["create_character_desc"] = "Salut ! ~g~Prêt~s~ pour démarrer votre ~p~nouvelle aventure~s~ dans notre ville ? Créer votre ~y~personnage~s~ et rejoignez nous !",
 
     ["create_identity"] = "Création Identité",
