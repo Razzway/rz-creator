@@ -22,6 +22,7 @@
 
 ## Requirements
 - [es_extended](https://github.com/esx-framework/esx-legacy/tree/main/%5Besx%5D/es_extended)
+- Si vous rencontrez des problèmes d'invisibilité du personnage, installez ce skinchanger (à noter que cette ressource contient également l'esx_skin, c'est un compactage, celui de california mais adapté pour legacy. Vous devrez donc start uniquement cette ressource)
 - [skinchanger](https://github.com/Razzway/skinchanger)
 
 ## If you need help
