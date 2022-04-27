@@ -31,7 +31,7 @@ AddEventHandler('playerSpawned', function()
             Citizen.Wait(10)
         end
         if FirstSpawn then
-            ESX.TriggerServerCallback(_Config.events.skin..':getPlayerSkin', function(skin)
+            ESX.TriggerServerCallback(_Config.events.skin..':getPlayerSkin', function(skin, jobSkin)
                 if skin == nil then
                     Utils:spawnCinematic()
                     _Client.open:createCharacterMenu()
