@@ -33,6 +33,8 @@ AddEventHandler('playerSpawned', function()
         if FirstSpawn then
             ESX.TriggerServerCallback(_Config.events.skin..':getPlayerSkin', function(skin, jobSkin)
                 if skin == nil then
+                    TriggerEvent('skinchanger:loadSkin', {sex = 0})
+                    Wait(10)
                     Utils:spawnCinematic()
                     _Client.open:createCharacterMenu()
                 else
